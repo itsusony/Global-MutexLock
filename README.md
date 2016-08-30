@@ -1,6 +1,6 @@
 # NAME
 
-Global::MutexLock - It's new $module
+Global::MutexLock
 
 # SYNOPSIS
 
@@ -8,14 +8,18 @@ Global::MutexLock - It's new $module
 
 # DESCRIPTION
 
-Global::MutexLock is ...
+Global::MutexLock is a module to create os-level global mutex-lock for perl.
+You can lock anything between process to others, or web-applications, or threads,cron.
+
+Mutex-lock's pointer is stored in System V IPC.
+You should let the process to know the IPC-ID for locking.
+
+If you want to delete IPC-ID by yourself, please use 'ipcs','ipcrm'.
 
 # LICENSE
 
 Copyright (C) itsusony.
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+MIT LICENSE
 
 # AUTHOR
 
