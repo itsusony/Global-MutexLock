@@ -2,6 +2,10 @@ Revision history for Perl extension Global-MutexLock
 
 {{$NEXT}}
 
+0.02 2016-08-30T09:51:42Z
+
+    - udpate readme
+
 0.01 2016-08-30T05:21:19Z
 
     - original version
