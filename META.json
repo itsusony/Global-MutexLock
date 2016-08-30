@@ -53,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/itsusony/Global-MutexLock/issues"
+      },
+      "homepage" : "https://github.com/itsusony/Global-MutexLock",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/itsusony/Global-MutexLock.git",
+         "web" : "https://github.com/itsusony/Global-MutexLock"
+      }
+   },
    "version" : "0.01"
 }
