@@ -1,12 +1,12 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "A xs module to give perl global mutex-lock between crons or web-app's workers",
    "author" : [
       "itsusony <itsusony@fout.jp>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.0.4, CPAN::Meta::Converter version 2.143240",
    "license" : [
-      "perl_5"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -64,5 +64,5 @@
          "web" : "https://github.com/itsusony/Global-MutexLock"
       }
    },
-   "version" : "0.02"
+   "version" : "0.021"
 }
