@@ -2,6 +2,9 @@ Revision history for Perl extension Global-MutexLock
 
 {{$NEXT}}
 
+    - update pod again.
+    - fix example's usage
+
 0.021 2016-08-31T10:21:09Z
 
     - update pod

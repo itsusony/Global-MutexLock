@@ -31,17 +31,17 @@ Global::MutexLock - A xs module to give perl global mutex-lock between crons or 
 
 =head1 DESCRIPTION
 
-Global::MutexLock is a module to create os-level global mutex-lock for perl.
-You can lock anything between process to others, or web-applications, or threads,cron.
+Global::MutexLock is a module to create os-level global mutex-lock for perl.  
+You can lock anything between process to others, or web-applications, or threads,cron.  
   
-Mutex-lock's pointer is stored in System V IPC.
-You should let the process to know the IPC-ID for locking.
+Mutex-lock's pointer is stored in System V IPC.  
+You should let the process to know the IPC-ID for locking.  
   
-If you want to delete IPC-ID by yourself, please use 'ipcs','ipcrm'.
+If you want to delete IPC-ID by yourself, please use 'ipcs','ipcrm'.  
 
 =head1 LICENSE
 
-Copyright (C) itsusony. FreakOut
+Copyright (C) itsusony. FreakOut.  
 MIT LICENSE
 
 =head1 AUTHOR
