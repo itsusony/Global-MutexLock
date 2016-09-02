@@ -16,6 +16,34 @@ You should let the process to know the IPC-ID for locking.
 
 If you want to delete IPC-ID by yourself, please use 'ipcs','ipcrm'.  
 
+# USAGE
+
+\# 0. use Global::MutexLock;  
+use Global::MutexLock qw(mutex\_create mutex\_destory mutex\_lock mutex\_unlock);   
+
+\# 1. create a new global mutex id  
+\# tips: you can create an id, and use it in different crons or apps  
+my $mutex\_id = mutex\_create();  
+
+\# 2. take a lock  
+unless (mutex\_lock($mutex\_id)) {  
+    warn "lock error";  
+}  
+
+\# 3. do something...  
+\# ...  
+
+\# 4. release lock  
+unless (mutex\_unlock($mutex\_id)) {  
+    warn "release lock error";  
+}  
+
+\# 5. destory mutex lock id  
+\# you must do it. otherwise the IPC id will be leaved in system.  
+\# or you can rm it by \`ipcrm -m IPCID\`  
+\# you can find IPCID by \`ipcs\`  
+mutex\_destory($mutex\_id);  
+
 # LICENSE
 
 Copyright (C) itsusony. FreakOut.  

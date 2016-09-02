@@ -2,6 +2,11 @@ Revision history for Perl extension Global-MutexLock
 
 {{$NEXT}}
 
+0.023 2016-09-02T02:59:56Z
+
+    - change license to MIT
+    - update readme
+
 0.022 2016-08-31T10:26:39Z
 
     - update pod again.
