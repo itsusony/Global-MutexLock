@@ -28,7 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.035"
+            "Module::Build" : "0.4005"
          }
       },
       "develop" : {
@@ -64,5 +64,5 @@
          "web" : "https://github.com/itsusony/Global-MutexLock"
       }
    },
-   "version" : "0.024"
+   "version" : "0.025"
 }
