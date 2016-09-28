@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter 'import';
 
-our $VERSION = "0.025";
+our $VERSION = "0.026";
 
 our @EXPORT_OK = qw( 
     mutex_create
